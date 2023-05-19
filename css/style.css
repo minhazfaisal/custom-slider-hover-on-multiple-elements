@@ -1,0 +1,75 @@
+/*font links start*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/*common css start*/
+body{
+
+}
+/*common css end*/
+
+/*slider*/
+.slider{
+	background-image: url(../images/slider.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+/*	min-height: 700px;*/
+}
+.s_item{
+	margin: 210px 0 200px;
+	color: white;
+}
+.s_item a{
+	color: white;
+}
+/*slider*/
+/*service start*/
+.service{
+	padding-bottom: 95px;
+}
+.c_arrow{
+	width: 3px;
+    height: 50px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.sv_item{
+	margin-top: 60px;
+	padding: 70px 15px 35px;
+	border: 1px solid #8e8e8e;
+	text-align: center;
+}
+.sv_icon{
+	margin: -90px auto 0;
+    width: 65px;
+    background-color: white;
+}
+.sv_icon i{
+	font-size: 60px;
+	color: #8e8e8e;
+}
+.sv_h2{}
+.sv_hr{
+	width: 50px;
+    margin: 10px auto;
+    border-top: 3px solid red#8e8e8e;
+}
+.sv_p{
+	color: #8e8e8e;
+}
+.sv_a{
+	color: #8e8e8e;
+}
+
+.sv_item:hover {
+	border: 1px solid #333333;
+}
+.sv_item:hover .sv_icon i{
+	color: #333333;
+}
+.sv_item:hover .sv_a{
+	color: #333333;
+}
+/*service end*/
